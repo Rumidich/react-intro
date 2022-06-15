@@ -13,7 +13,6 @@ const List = ({ cars }) => {
         alignItems: "center",
       }}>
       {cars.map(item => (
-        // <span key={item.id}> {item.model}</span>
         <Card
           key={item.id}
           item={item}

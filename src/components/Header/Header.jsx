@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-// import Navbar from "../Navbar/Navbar";
 
 const Header = ({ cars, logo }) => {
+  // console.log(logo);
+  // console.log(cars);
   return (
     <div
       style={{

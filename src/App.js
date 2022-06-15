@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Card from "./components/Card/Card";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import List from "./components/List/List";
@@ -51,7 +50,7 @@ const App = () => {
   // console.log(myHook);
 
   const [state, setState] = useState(0);
-  console.log(state);
+  // console.log(state);
   //! state = 'chto-to' // так нельзя
   return (
     <div>
@@ -63,7 +62,7 @@ const App = () => {
       <button onClick={() => setState(state + 1)}>+</button>
 
       {/* <div>{str}</div> */}
-      <Header cars={cars} logo={logo} name={"Begimay"} age={23} />
+      <Header cars={cars} logo={logo} name={"Ruslan"} age={23} />
       <List cars={cars} />
       <Footer />
     </div>

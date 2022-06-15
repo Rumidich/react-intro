@@ -13,6 +13,7 @@ const Card = ({ item, activeCard, setActiveCard }) => {
       onClick={() => setActiveCard(item.id)}>
       <h2>{item.model}</h2>
       <img className="car-image" src={item.image} alt="" />
+
       <div>
         {like ? (
           <img
